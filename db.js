@@ -3,7 +3,7 @@ const uuid = require('uuid/v4')
 const NUMBER_OF_TRANSACTIONS = 500
 const PAGE_SIZE = 10
 
-const getRandomPrice = () => Math.ceil(Math.random() * 10)
+const getRandomPrice = () => Math.random() * 10
 const generateID = () => uuid()
 
 const updatePrice = timeout => setTimeout(() => {
