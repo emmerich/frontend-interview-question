@@ -4,7 +4,9 @@
 
 * Node version 8+
 
-## Running the Server
+## Running the Server
 
-`npm install`
-`npm run start`
+```
+npm install
+npm run start
+```
